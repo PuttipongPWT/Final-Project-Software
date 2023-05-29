@@ -6,14 +6,14 @@ class EmployeeForm(forms.ModelForm):
     class Meta:
         model=Employee
         fields="__all__"
-        labels={                  #เปลี่ยนจากชื่อภาษาอังกฤษเป็นภาษาไทย
+        labels={             
             'fname':'ชื่อ',
             'lname':'นามสกุล',
             'address':'ที่อยู่',
             'gender':'เพศ',
             'birthdate':'วันเกิด',
             'department':'แผนก',
-            'salary':'เงินเดือน',
+            'phone':'เบอร์โทรศัพท์',
             'cover':'ภาพพนักงาน'
         }
         widgets={

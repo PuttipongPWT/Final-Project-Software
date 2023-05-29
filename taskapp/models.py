@@ -22,7 +22,7 @@ class Employee(models.Model):
         choices=[('กราฟิก','กราฟิก'),('IT','IT'),('บัญชี','บัญชี')],
         default='กราฟิก'
     )
-    salary = models.IntegerField()
+    phone = models.IntegerField()
     cover = models.ImageField(upload_to="images",blank=True)
 
 class Statement(models.Model):
